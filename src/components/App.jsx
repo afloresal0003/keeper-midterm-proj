@@ -23,7 +23,6 @@ function App() {
     const updatedNotes = [...notes];
     const res = updatedNotes.filter((note) => note.key != delKey);
     setNotes(res);
-    event.preventDefault();
   };
 
   function handleAdd(event) {
